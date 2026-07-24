@@ -1,1 +1,356 @@
-<!-- À compléter : landing page Women Olympics -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Women Olympics — Le championnat multisport 100% féminin. Par elles. Pour elles.">
+  <title>Women Olympics — Par elles. Pour elles.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Women Olympics — Accueil">
+        <span class="logo-mark" aria-hidden="true">W</span>
+        <span class="logo-text">
+          <strong>WOMEN</strong>
+          <span>OLYMPICS</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#evenement">L'Événement</a></li>
+          <li><a href="#epreuves">Épreuves</a></li>
+          <li><a href="#nations">Nations</a></li>
+          <li><a href="#marraines">Marraines</a></li>
+          <li><a href="#partenaires">Partenaires</a></li>
+          <li><a href="#infos">Infos Pratiques</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#live" class="btn btn-pink btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 6h-7.59l3.29-3.29L16 2l-4 4-4-4-1.41 1.41L10.59 6H3c-1.1 0-2 .89-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.11-.9-2-2-2zm0 14H3V8h18v12z"/></svg>
+          Voir le live
+        </a>
+        <a href="#acces" class="btn btn-purple btn-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+          Accès organisation
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="accueil" class="hero">
+      <div class="hero-rings" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Le championnat multisport 100% féminin</p>
+          <h1>
+            <span class="hero-line hero-line--dark">Par elles.</span>
+            <span class="hero-line hero-line--purple">Pour elles.</span>
+          </h1>
+
+          <ul class="hero-meta">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              Stade Alain Mimoun, Noisy-le-Grand
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+              16 nations, 128 athlètes
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              8 épreuves, 1 seule championne
+            </li>
+          </ul>
+
+          <div class="hero-actions">
+            <a href="#evenement" class="btn btn-pink">Découvrir l'événement →</a>
+            <a href="#plaquette" class="btn btn-outline">Télécharger la plaquette</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-photo-wrap">
+            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=1000&fit=crop&crop=top" alt="Athlète Women Olympics" width="480" height="600" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live + Plaquette -->
+    <section id="live" class="live-section">
+      <div class="live-grid">
+        <div class="live-panel">
+          <div class="live-panel-inner">
+            <div class="live-header">
+              <h2>Résultats en direct</h2>
+              <span class="live-badge">● Live</span>
+            </div>
+
+            <label class="sr-only" for="epreuve-filter">Filtrer les épreuves</label>
+            <select id="epreuve-filter" class="live-select">
+              <option>Toutes les épreuves</option>
+              <option>100 m</option>
+              <option>Cross</option>
+              <option>Boxe</option>
+            </select>
+
+            <div class="live-cards">
+              <article class="live-card live-card--active">
+                <div class="live-card-top">
+                  <span class="live-status">En cours</span>
+                  <span class="live-timer">00:12.84</span>
+                </div>
+                <h3>100 m — Série 3 femmes</h3>
+                <ol class="live-ranking">
+                  <li><span class="rank">1</span> Athlète A <strong>12.84</strong></li>
+                  <li><span class="rank">2</span> Athlète B <strong>12.91</strong></li>
+                  <li><span class="rank">3</span> Athlète C <strong>13.02</strong></li>
+                </ol>
+              </article>
+
+              <article class="live-card live-card--next">
+                <span class="live-next-label">Prochaine épreuve</span>
+                <h3>Cross — Série 1</h3>
+                <p class="live-time">À suivre · 14:30</p>
+              </article>
+            </div>
+
+            <div class="live-photo">
+              <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&h=400&fit=crop" alt="Sprinteurs en action" width="600" height="280" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+        <div id="plaquette" class="brochure-panel">
+          <div class="brochure-inner">
+            <h2>Téléchargez la plaquette commerciale</h2>
+            <p>Découvrez le format, les partenaires et les opportunités de visibilité autour du Women Olympics.</p>
+            <a href="#" class="btn btn-white">Télécharger →</a>
+            <div class="brochure-mockup" aria-hidden="true">
+              <div class="brochure-cover">
+                <span>WOMEN OLYMPICS</span>
+                <strong>2027–28</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Épreuves -->
+    <section id="epreuves" class="epreuves-section">
+      <div class="epreuves-rings" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-header">
+          <h2>8 épreuves.<br>Une seule championne.</h2>
+        </header>
+
+        <div class="epreuves-grid">
+          <div class="epreuves-group">
+            <h3 class="epreuves-label epreuves-label--pink">Individuel</h3>
+            <ul class="sport-list">
+              <li>
+                <span class="sport-icon sport-icon--pink" aria-hidden="true">🥊</span>
+                <span>Boxe</span>
+              </li>
+              <li>
+                <span class="sport-icon sport-icon--pink" aria-hidden="true">🏃</span>
+                <span>100 m</span>
+              </li>
+              <li>
+                <span class="sport-icon sport-icon--pink" aria-hidden="true">🏅</span>
+                <span>Cross</span>
+              </li>
+              <li>
+                <span class="sport-icon sport-icon--pink" aria-hidden="true">🏹</span>
+                <span>Arcathlon</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="epreuves-group">
+            <h3 class="epreuves-label epreuves-label--teal">Collectif</h3>
+            <ul class="sport-list">
+              <li>
+                <span class="sport-icon sport-icon--teal" aria-hidden="true">🤝</span>
+                <span>Relais</span>
+              </li>
+              <li>
+                <span class="sport-icon sport-icon--teal" aria-hidden="true">🪢</span>
+                <span>Tir à la corde</span>
+              </li>
+              <li>
+                <span class="sport-icon sport-icon--teal" aria-hidden="true">🤾</span>
+                <span>Hand ou Netball</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marraines -->
+    <section id="marraines" class="marraines-section">
+      <div class="container marraines-grid">
+        <div class="marraines-intro">
+          <h2>Marraines de l'événement</h2>
+          <p>Des championnes engagées qui portent haut les valeurs du Women Olympics et inspirent la prochaine génération d'athlètes.</p>
+          <a href="#" class="btn btn-pink">Découvrir nos marraines →</a>
+        </div>
+
+        <div class="marraines-cards">
+          <article class="marraine-card marraine-card--purple">
+            <div class="marraine-arch">
+              <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&h=500&fit=crop&crop=face" alt="Thaïs Larché" width="220" height="280" loading="lazy">
+            </div>
+            <h3>Thaïs Larché</h3>
+            <p>Boxe</p>
+          </article>
+
+          <article class="marraine-card marraine-card--teal">
+            <div class="marraine-arch">
+              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop&crop=face" alt="Asma Niang" width="220" height="280" loading="lazy">
+            </div>
+            <h3>Asma Niang</h3>
+            <p>Judo</p>
+          </article>
+
+          <article class="marraine-card marraine-card--pink">
+            <div class="marraine-arch">
+              <img src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?w=400&h=500&fit=crop&crop=face" alt="Hatadou Sako" width="220" height="280" loading="lazy">
+            </div>
+            <h3>Hatadou Sako</h3>
+            <p>Hand</p>
+          </article>
+
+          <aside class="marraine-cta">
+            <div class="marraine-cta-circle">
+              <p>Rejoignez l'aventure !</p>
+              <a href="#" class="btn btn-outline-dark">En savoir plus →</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accès organisation -->
+    <section id="acces" class="acces-section">
+      <div class="container acces-grid">
+        <div class="acces-content">
+          <div class="acces-header">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+            <h2>Accès organisation</h2>
+          </div>
+
+          <div class="login-grid">
+            <form class="login-card login-card--teal" action="#" method="post">
+              <h3>Opérateur sportif</h3>
+              <p>Saisie des résultats en direct</p>
+              <label>
+                <span>Login (prénom)</span>
+                <input type="text" name="operator_login" autocomplete="username">
+              </label>
+              <label>
+                <span>Mot de passe</span>
+                <input type="password" name="operator_password" autocomplete="current-password">
+              </label>
+              <button type="submit" class="btn btn-teal">Se connecter →</button>
+            </form>
+
+            <form class="login-card login-card--purple" action="#" method="post">
+              <h3>Administrateur</h3>
+              <p>Gestion générale de l'événement</p>
+              <label>
+                <span>Login (prénom)</span>
+                <input type="text" name="admin_login" autocomplete="username">
+              </label>
+              <label>
+                <span>Mot de passe</span>
+                <input type="password" name="admin_password" autocomplete="current-password">
+              </label>
+              <button type="submit" class="btn btn-purple">Se connecter →</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="acces-visual">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=700&h=500&fit=crop" alt="Équipe unie, mains jointes" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="partenaires" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo logo--footer">
+          <span class="logo-mark" aria-hidden="true">W</span>
+          <span class="logo-text">
+            <strong>WOMEN</strong>
+            <span>OLYMPICS</span>
+          </span>
+        </a>
+        <p class="footer-tagline">Par elles. Pour elles.</p>
+        <a href="#" class="footer-social" aria-label="YouTube">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#evenement">L'Événement</a></li>
+          <li><a href="#epreuves">Épreuves</a></li>
+          <li><a href="#marraines">Marraines</a></li>
+          <li><a href="#infos">Infos pratiques</a></li>
+        </ul>
+      </div>
+
+      <div id="infos" class="footer-col">
+        <h4>Informations</h4>
+        <address>
+          Stade Alain Mimoun<br>
+          Noisy-le-Grand<br>
+          <a href="mailto:contact@womenolympics.fr">contact@womenolympics.fr</a>
+        </address>
+      </div>
+
+      <div class="footer-col footer-partners">
+        <h4>Partenaires principaux</h4>
+        <ul class="partner-logos">
+          <li>Cristaline</li>
+          <li>Région Île-de-France</li>
+          <li>Seine-Saint-Denis</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Women Olympics. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
