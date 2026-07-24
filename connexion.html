@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women Olympics — Connexion</title>
+  <link rel="stylesheet" href="css/connexion.css">
+</head>
+<body>
+  <main class="login-page">
+    <section class="visual">
+      <a href="index.html" class="back">← Retour au site</a>
+      <div>
+        <p>Women Olympics</p>
+        <h1>Accès organisation</h1>
+        <span>Gérez les résultats et le déroulement des épreuves en direct.</span>
+      </div>
+    </section>
+
+    <section class="form-side">
+      <div class="login-box">
+        <p class="eyebrow">Espace sécurisé</p>
+        <h2>Connexion</h2>
+        <p class="intro">Entrez votre prénom et le mot de passe fourni par l'organisation.</p>
+
+        <form id="loginForm">
+          <label>
+            Prénom
+            <input id="login" type="text" placeholder="Votre prénom" required>
+          </label>
+
+          <label>
+            Mot de passe
+            <input id="password" type="password" placeholder="••••••••" required>
+          </label>
+
+          <label>
+            Rôle
+            <select id="role">
+              <option value="operator">Opérateur sportif</option>
+              <option value="admin">Administrateur</option>
+            </select>
+          </label>
+
+          <button type="submit">Se connecter</button>
+          <p id="message"></p>
+        </form>
+
+        <small>Version de démonstration : mot de passe <b>women2027</b></small>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
